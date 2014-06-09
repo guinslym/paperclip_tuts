@@ -55,3 +55,4 @@ gem 'guard-livereload', group: :development
 gem 'rack-livereload', group: :development
 gem 'guard-bundler', group: :development
 #}
+gem 'thin'

@@ -16,8 +16,7 @@
 </p>
 
 <p>
-  <strong>Image:</strong>
-  <%= @listing.image %>
+  <%= image_tag @listing.image.url %>
 </p>
 
 <%= link_to 'Edit', edit_listing_path(@listing) %> |
